@@ -9,10 +9,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="This is my First Change!!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/This is a Change!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a Change!"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="268dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
